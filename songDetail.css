@@ -1,0 +1,220 @@
+body{
+    background-color: #333;
+    color: white;
+    font-size: 20px;
+    font-family:'Times New Roman', Times, serif;
+    margin: 0px;
+}
+ 
+.navbar{
+    height:60px;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    margin-top: -20px;
+    margin-bottom: 30px;
+    padding: 25px;
+    text-align: center;
+   
+}
+.animated-note {
+    position: absolute;
+    top: 10px;
+    left: 200px;
+    animation: float 4s infinite ease-in-out;
+    font-size: 2rem;
+    opacity: 0.6;
+}
+.animated-note:nth-child(2) {
+    top: 30px;
+    left: calc(80% - 100px);
+    animation-delay: 1s;
+}
+.animated-note:nth-child(3) {
+    top: 40px;
+    left: 100px;
+    animation-delay: 2s;
+}
+@keyframes float {
+    0%, 100% { transform: translateY(-10px); }
+    50% { transform: translateY(10px); }
+}
+h3 {
+    cursor: pointer;
+}
+p:not(.primary,.date){
+    text-align: justify;
+    margin: -10px 10px 0px 10px;
+    
+}
+h3{
+    margin: 20px 5px;
+    
+    
+}
+article p{
+    font-size: 18px;
+
+}
+article p:last-child{
+    
+    margin: 0px 0px 20px 0px;
+}
+.page2{
+    border-bottom: 1px dashed whitesmoke;
+}
+/* .stars{
+    padding-left: 270px ;
+    margin-top: -10px;
+    margin-bottom: 30px;
+    
+}
+
+.stars span{
+    font-size: 20px;
+    
+}
+     */
+.stars{
+        width: 120px;
+        /* background-color: #000000; */
+        font-size: 25px;
+        text-align: left;
+        margin: 0px auto 10px 270px;
+    
+ }
+.image img{
+ height: 500px;
+ width: 800px;
+}
+.date{
+    padding-left: 270px;
+    margin-top: 2px;
+    font-size: 16px;
+    font-weight: bold;
+
+}
+.data{
+  margin-top: 40px; 
+  
+}
+.data h2{
+    margin-bottom: 40px; 
+    font-family: "Rolling Stone Slab", serif;
+    font-weight: bolder;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+.data h3{
+    margin-bottom: 30px;
+}
+.items{
+display: flex;
+gap: 40px;
+}
+.items a{
+    text-decoration: none;
+    color:white
+}
+.data h3 span{
+padding-bottom: 10px;
+border-bottom: 2px solid red;
+font-family: "Rolling Stone Slab", serif;
+font-size: 20px;
+}
+
+.button button{
+    padding: 10px 30px 10px 30px;
+    color: white;
+    background-color: blue;
+    border-color: white;
+    margin-bottom: 30px;
+    margin-top: 40px;
+
+}
+#lyricsContainer {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    color:#333;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    display: none;
+    margin-bottom: 40px;
+}
+.relation{
+    background-color: black;
+    color: red;
+    padding: 2px;
+    margin-bottom: 30px;
+    
+}
+.maincard{
+    background-color: #666;
+}
+.card-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    width: 80%;
+    max-width: 1200px;
+    overflow: hidden; /* Prevents the cards from growing too large */
+}
+.card {
+    background-color: #000000;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: center;
+    padding: 15px;
+    width: 23%; /* Ensures the cards are not too big */
+    transition: transform 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+.card:hover {
+    transform: translateY(-10px);
+}
+.card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+.card-details {
+    margin-top: 10px;
+}
+.card-details h3 {
+    font-size: 18px;
+    margin: 10px 0;
+    color: #ffffff;
+}
+.card-details p {
+    color: #a7a4a4;
+    font-weight: bold;
+    font-size: 14px;
+    margin: 5px 0;
+}
+.rating {
+    margin-top: 10px;
+}
+.rating span {
+    color: gold;
+    font-size: 20px;
+}
+.release-date {
+    margin-top: 15px;
+    font-size: 14px;
+    color: #fffcfc;
+}
+.card::after {
+    content: "";
+    display: block;
+    height: 2px;
+    background-color: #ddd;
+    margin-top: 15px;
+}

@@ -1,0 +1,568 @@
+ body {
+    font-family:'Times New Roman';
+    margin: 0;
+    padding: 0;
+    /* background: linear-gradient(to bottom, #ff7eb3, #ff758c, #ff5252); */
+    background: #cfdef3;
+    color: #fff;
+}
+
+/* Header */
+
+.main-header {
+    background: linear-gradient(to right, #242c35, #302c35, #08090a);
+    /* background-image: url("Pics/download\ \(3\).jpeg");
+    background-size: cover; */
+    text-align: center;
+    display: flex;
+    padding: 2rem;
+    color: #fff;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-left: -50px;
+   
+}
+.logopic{
+    height: 150px;
+    width: 150px;
+    background-image: url("Pics/JF.png");
+    background-size: cover;
+    border-radius: 75px;
+    margin-right: 350px;
+    margin-top: 18px;
+     
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: baseline;
+    gap: 1.5rem;
+    margin-top: 130px;
+    margin-left: -300px;
+    padding: 0;
+}
+
+.d-flex{
+    justify-content: right;
+}
+#the{
+    font-size: 25px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: normal;
+    color: rgb(240, 235, 235);
+    margin-right: 2px;
+    /* margin-left: 100px; */
+}
+.header-title{
+    font-size: 50px;
+    font-weight: 900px;
+    background: linear-gradient(90deg,  #afccf3, #d1768c,  #8adce2);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.nav-links a:hover {
+    color: white;
+    background-color: gray;
+    padding: 8px;
+}
+.barbutton{
+    display: flex;
+    gap: 25px;
+}
+
+.signup-button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 12px 24px;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 118px;
+    margin-left: 350px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.signup-button:hover {
+    background-color: #0056b3;
+}
+
+.signup-button:active {
+    transform: scale(0.95);
+}
+.search {
+    font-size: 25px;
+    cursor: pointer;
+    position: absolute;
+    top: 153px;
+    right: 33px;
+}
+.search i {
+    color: #fff5f5;
+}
+.mainsearch{
+    position: relative;
+    width: 100%;
+   
+}
+.search-container {
+    display: none; 
+    position: absolute;
+    top: 38px;
+    left: 0;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-input {
+    padding: 10px;
+    margin-top: 200px;
+    margin-bottom: 20px;
+    width: 60%;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #000000;
+    outline: none;
+}
+
+
+a:hover {
+    color: gray;
+}
+.heading{
+    background: linear-gradient(90deg,  #afccf3, #d1768c,  #a3e28a,  #ba8ae2);
+    padding: 10px;
+}
+/* Sections */
+section {
+    padding: 2rem;
+    text-align: center;
+}
+
+.latest-section, .trends-section {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    margin: 1rem auto;
+    width: 90%;
+    max-width: 1200px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.section {
+    padding: 2rem;
+    text-align: center;
+  }
+
+ .blog-headings{
+    font-size: 35px; 
+    background: linear-gradient(90deg,  #ff8b8b, blue,  #333);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.trend-card {
+    text-align: justify;
+    color: black;
+    
+}
+legend{
+    text-align: left;
+
+}
+  .card-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap:wrap;
+    gap: 2rem;
+    padding-bottom: 50px;
+  }
+  
+  .card {
+    background: #282828;
+    border-radius: 12px;
+    overflow: hidden;
+    width: 300px;
+    text-align: center;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+  }
+  
+  .card img {
+    width: 100%;
+  }
+  
+  .gradient-background {
+    background: linear-gradient(45deg, #4facfe, #00f2fe);
+  }
+  .readmore{
+    width: 300px;
+    height: 50px;
+    color: rgb(68, 31, 231);
+    font-size: 15px;
+    background-color: #282828;
+    /* background-color: rgb(185, 183, 183);  */
+    cursor: pointer;
+    font-weight: bold;
+    align-self: center;
+    padding: 0px;
+    margin: 0px;
+  }
+ 
+  /* About */
+.about-section {
+    /* background: linear-gradient(to right, #6a11cb, #2575fc); */
+    background-image: url(Pics/top.jpeg);
+    background-size: cover;
+    color: white;
+    text-align: center;
+    position: relative;
+}
+.about-section h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    animation: fadeInDown 1.5s ease-out;
+}
+.about-section p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto;
+    animation: fadeInUp 1.5s ease-out;
+}
+.developers {
+    margin-top: 30px;
+    font-size: 1rem;
+    animation: fadeIn 2s;
+}
+
+.picture-section {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-top: 40px;
+    opacity: 0;
+    transform: translateY(50px);
+    transition: opacity 1s, transform 1s;
+}
+.picture-section img {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.picture-section.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+@keyframes fadeInDown {
+    0% { transform: translateY(-50px); opacity: 0; }
+    100% { transform: translateY(0); opacity: 1; }
+}
+
+@keyframes fadeInUp {
+    0% { transform: translateY(50px); opacity: 0; }
+    100% { transform: translateY(0); opacity: 1; }
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+/* Contact Section */
+.contact-section {
+    background: #111;
+    padding: 2rem;
+    border-radius: 8px;
+    display: flex;
+    gap: 30px;
+}
+
+.footericon h2{
+margin-bottom: 40px;
+font-size: 28px;
+}
+.iconss{
+    display: flex;
+    gap: 28px;
+    font-size: 30px;
+    margin-left: 20px;
+    margin-bottom: 200px;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    margin-right: 50px;
+    text-align: left;
+}
+
+form input, form textarea{
+    width: 100%;
+    padding: 0.7rem;
+    margin-top: 0.5rem;
+    border: none;
+    border-radius: 4px;
+}
+
+form button {
+    background: #ff4786;
+    padding: 14px 295px;
+    margin-top: 25px;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    font-weight: bold;
+  
+}
+
+
+form button:hover {
+    background: #ff758c;
+}
+
+/* Footer */
+.main-footer p {
+     
+    text-align: center;
+    font-size: 17px;
+    padding-top: 20px;
+    background: #333;
+    color: #fff;
+    margin: 0px;
+}
+
+
+/* Rating stars*/
+
+.ratingstar{
+    background-color: #111;
+    margin-top: 0px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+
+}
+.rating {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: baseline;
+    margin-top: 16px;
+}
+
+.rating input {
+    display: none;
+}
+
+.rating label {
+    font-size: 2rem;
+    color: #ccc;
+    cursor: pointer;
+    transition: color 0.2s;
+}
+
+.rating input:checked ~ label {
+    color: #f5b301;
+}
+
+.rating label:hover,
+.rating label:hover ~ label {
+    color: #f5b301;
+}
+ 
+/* Responsive Design */
+@media (max-width: 768px) {
+    .nav-links {
+        flex-direction: column;
+        gap: 0.8rem;
+    }
+
+    .album-card, .trend-card {
+        margin: 1rem 0;
+    }
+}
+
+
+/* Keyframe animations for sliding from different sides */
+@keyframes slideInLeft {
+    0% {
+        transform: translateX(-100%); /* Start from the left (off-screen) */
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0); 
+        opacity: 1; 
+    }
+}
+
+@keyframes slideInRight {
+    0% {
+        transform: translateX(100%); 
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0); 
+        opacity: 1; 
+    }
+}
+
+/* Trend card container to handle layout */
+.trend-card {
+    text-align: justify;
+    color: black;
+    display: flex;
+    gap: 2rem;
+    justify-content: center; 
+    align-items: center;
+    position: relative;
+    overflow: hidden; 
+    opacity: 0; 
+    animation: showContent 3s ease-out forwards;
+}
+
+/* Animation for content to appear when the page loads */
+@keyframes showContent {
+    0% {
+        opacity: 0;
+        transform: scale(0.9); 
+    }
+    100% {
+        opacity: 1;
+        transform: scale(1); 
+    }
+}
+
+/* For image and text animations on load */
+.trend-card .image {
+    opacity: 0;
+    animation: slideInLeft 1s ease-out forwards 0.5s; }
+
+.trend-card .text {
+    opacity: 0;
+    animation: slideInRight 1s ease-out forwards 0.5s; /* Slide text from right after delay */
+}
+
+/* Hover effect for animation when mouse hovers over the card */
+.trend-card:hover {
+    transform: scale(1.05); 
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* When the mouse hovers over the card, trigger animations for image and text */
+.trend-card:hover .image {
+    animation: slideInLeft 1s ease-out forwards; 
+    opacity: 1;
+}
+
+.trend-card:hover .text {
+    animation: slideInRight 1s ease-out forwards; /* Slide text from right */
+    opacity: 1;
+}
+
+/* Optional: Smooth fading in of text */
+.text h3, .text p {
+    animation: fadeInText 1.5s ease-in-out;
+}
+
+@keyframes fadeInText {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+/* Keyframe animation for sliding the text */
+@keyframes slideUpText {
+    0% {
+        transform: translateY(50px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+/* Keyframe animation for sliding the image */
+@keyframes slideInImage {
+    0% {
+        transform: translateX(100%); /* Start from the right */
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+/* Text style initially hidden */
+.text {
+    opacity: 0; /* Hidden initially */
+    animation: slideUpText 1s ease-out forwards; /* Apply animation */
+}
+
+/* Image style initially hidden */
+.image {
+    opacity: 0; /* Hidden initially */
+    animation: slideInImage 1s ease-out forwards; /* Apply animation */
+}
+
+/* Optional: Hover effects for better user interaction */
+.text h3 {
+    font-size: 24px;
+    color: #333;
+    text-align: center;
+    animation: fadeInText 2s ease-in-out;
+}
+
+/* Fade-in effect for text */
+@keyframes fadeInText {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+/* Intersection Observer - Initially hidden */
+.show {
+    opacity: 1 !important;
+    animation: slideUpText 1s ease-out forwards; /* Slide and fade-in text */
+}
+
+/* Responsive handling for mobile screens */
+@media (max-width: 768px) {
+    .text h3 {
+        font-size: 20px; /* Smaller font size on mobile */
+    }
+    .image {
+        width: 100%; /* Full width image for mobile */
+        height: auto;
+    }
+}
+
+
+
